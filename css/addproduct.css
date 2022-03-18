@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    margin: auto;
+    margin-top: 50px;
+
+    /* border: 3px solid black; */
+}
+.row{
+
+  display: grid;
+grid-template-columns: auto auto auto;
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.card__img--hover { */
+  /* transition: 0.59s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0; */
+    /* width: 100%;
+    height: 235px; */
+    visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+.card{
+  width: 300px;
+  height: 480px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  box-shadow: 10px 10px 15px rgb(0 0 0 / 8%);
+  transition: transform 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+.card:hover{
+  transform: translateY(-30px);
+}
+  .sami{
+   padding: 1.3em 3em;
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   font-weight: 500;
+   color: #000;
+   background-color: #fff;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+   transition: all 0.3s ease 0s;
+   cursor: pointer;
+   outline: none;
+  }
+
+  .sami:hover {
+   background-color: #2EE59D;
+   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+   color: #fff;
+   transform: translateY(-7px);
+  }
+
+  .sami:active {
+   transform: translateY(-1px);
+  }
+  /* From cssbuttons.io */
+/* .remove{
+  width: 180px;
+  color: #fff;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #ff3636;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+} */
+.remove {
+ width: 140px;
+ margin: 50px 0px;
+ height: 45px;
+ font-size: 23px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: #000;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 700;
+ position: relative;
+ transition: all 0.5s;
+ z-index: 1;
+}
+
+.remove::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: #ff3636;
+ z-index: -1;
+ transition: all 0.5s;
+}
+
+.remove:hover::before {
+ width: 100%;
+}
+
+.remove:hover {
+ color: #fff;
+}
+
+.remove:active:before {
+ background: #b9b9b9;
+}
+.display-4{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  z-index: -1;
+  margin-left: 15px;
+}
+.mt-5{
+  margin-top: 3rem!important;
+}
+.bg-text {
+  font-family: 'Fredoka', sans-serif;
+  position: absolute;
+  margin-bottom: -1em;
+  top: -80px;
+  left: 10px;
+  right: 0;
+  bottom: 0;
+  font-weight: 700 !important;
+  color: rgba(0, 0, 0, 0.08);
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  .bg-text {
+    font-size: 6em;
+  }
+}
+@media (max-width: 991.98px) {
+  .bg-text {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .bg-text {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .bg-text {
+    position: relative;
+  }
+}
+
+.final{
+  margin-left: 450px;
+  padding: 100px;
+  margin-top: 100px;
+  align-items: center;
+}
